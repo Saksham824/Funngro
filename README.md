@@ -1,12 +1,48 @@
-# React + Vite
+# Funngro Teenlancer Clone
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project is a responsive React.js clone of the Funngro Teenlancer landing page, designed to showcase web development skills with SEO optimization and mobile-first responsiveness.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Tech Stack
 
-## Expanding the ESLint configuration
+- **Frontend Framework**: [React.js](https://reactjs.org/)
+- **Styling**: [Tailwind CSS](https://tailwindcss.com/)
+- **Routing**: [React Router](https://reactrouter.com/)
+- **Icons**:  Custom SVGs
+- **Build Tool**: [Vite](https://vitejs.dev/)
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🔍 SEO Implementation
+
+To make the site SEO-friendly, the following strategies were applied:
+
+- ✅ **Semantic HTML Tags**: Used `<main>`, `<section>`, `<nav>`, `<header>`, and `<footer>` for structure.
+- ✅ **Meta Tags**: Added meaningful `<title>`, `<meta name="description">`, and Open Graph tags in `index.html`.
+- ✅ **Image Alt Text**: All images include descriptive `alt` attributes.
+- ✅ **Page Routing**: React Router is used with meaningful URLs (`/teen`, `/company`) for crawlability.
+- ✅ **Responsive Design**: Fully mobile-friendly with Tailwind’s utility-first breakpoints.
+- ✅ **Fast Load Times**: Vite ensures fast builds, lazy loading, and code splitting.
+- ✅ **Accessibility**: Text contrasts, alt tags, and keyboard-friendly navigation included.
+
+---
+
+## 🧪 How to Run Locally
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/your-username/funngro-clone.git
+   cd funngro-clone
+📁 Project Structure
+css
+Copy
+Edit
+src/
+  assets/         → Images and icons
+  components/     → Navbar, Hero, Footer, etc.
+  pages/          → Teen.js, Company.js
+  App.jsx         → Main routing
+  main.jsx        → App bootstrap
+public/
+  index.html      → SEO meta setup
